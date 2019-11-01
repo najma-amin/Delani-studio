@@ -47,3 +47,13 @@
 .col-md-3 {
   padding: 1rem;
 }
+.contacts {
+  text-align: center;
+  background: url("../images/backgrounds/c_image.jpg") no-repeat center
+    center/cover;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: inherit;
+  width: 80%;
+  height: 80vh;
+}
