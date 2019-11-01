@@ -21,7 +21,7 @@
 .service {
   text-align: center;
   padding: 1rem 1rem;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
   border-radius: inherit;
   color: white;
   width: 80%;
@@ -53,7 +53,12 @@
     center/cover;
   padding: 1rem 1rem;
   margin-bottom: 1rem;
-  border-radius: inherit;
-  width: 80%;
   height: 80vh;
+  color: white;
+}
+.container {
+  text-align: center;
+}
+#services h1 {
+  margin-top: 20%;
 }
