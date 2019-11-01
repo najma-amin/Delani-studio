@@ -1,0 +1,39 @@
+.mystyle {
+  text-align: center;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: inherit;
+  display: cover;
+  color: blanchedalmond;
+  width: 80%;
+  height: 80vh;
+  background: url("../images/backgrounds/h_img.jpg") no-repeat center
+    center/cover;
+}
+.about {
+  text-align: center;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: inherit;
+  display: cover;
+  width: 80%;
+}
+.service {
+  text-align: center;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: inherit;
+  color: white;
+  width: 80%;
+  height: 80vh;
+  background: url("../images/backgrounds/s_image.jpg") no-repeat center
+    center/cover;
+}
+.arc {
+  text-align: center;
+  padding: 2rem;
+}
+
+.col-md-4 {
+  padding: 2rem;
+}
