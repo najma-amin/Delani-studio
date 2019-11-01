@@ -37,3 +37,13 @@
 .col-md-4 {
   padding: 2rem;
 }
+.portfolio {
+  text-align: center;
+}
+
+.row {
+  padding-top: 1rem;
+}
+.col-md-3 {
+  padding: 1rem;
+}
