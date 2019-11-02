@@ -16,14 +16,14 @@
         <h1>WELCOME <br />TO DELANI STUDIO</h1>
         <p>Amazing people are making amazing design in fun enviroment</p>
         <br />
-        <img src="./images/mouse_click.png" alt="" />
+        <img src="./images/mouse_click.png" alt=""  id="mouse"/>
       </div>
     </div>
     <div class="container-fluid about">
       <div class="container">
         <h1>ABOUT US</h1>
-        <P
-          >when you work with us, you are part of a team of commited
+        <P>
+          when you work with us, you are part of a team of commited
           colloborators. All aspects of our software development process are
           integrated and agile<br />
           our approach unifies designs development and product management to to
@@ -53,86 +53,88 @@
           <div>
             <div class="row">
               <div class="col-md-4 design">
-                <img src="./images/services_icons/design_icon.png" alt="">
-                <h4>design</h4>
-                <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
-                    Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
-          </div>
+                <div class="swapin">
+                  <img src="./images/services_icons/design_icon.png" alt="">
+                  <h4>design</h4>
+                </div> 
+                <div class="swapout">
+                  <h4>design</h4>
+                  <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+                      Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+                </div>
+              </div>
               <div class="col-md-4 development">
-        <img src="./images/services_icons/dev_icon.png" alt="">
-        <h4>development</h4>
-        <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.
-            They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
-            </p>
-      </div>
-          <div class="col-md-4 product management">
-            <img src="./images/services_icons/product_icon.png" alt="">
-            <h4>product management</h4>
-            <p>
-                Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
-                This iterative process allows for changes as business requirements evolve.
+                <img src="./images/services_icons/dev_icon.png" alt="">
+                <h4>development</h4>
+                <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                  They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
                 </p>
+              </div>
+              <div class="col-md-4 product management">
+                <img src="./images/services_icons/product_icon.png" alt="">
+                <h4>product management</h4>
+                <p>
+                  Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
+                  This iterative process allows for changes as business requirements evolve.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      </div>
     <div class="container-fluid portfolio">
       <div class="container">
-        <h1>portfolio</h1>
+        <h1>portfolio </h1>
         <div>
           <div class="row">
             <div class="col-md-3">
-              <img src="./images/portfolio/work4.jpg" alt="">
+              <img src="./images/portfolio/work4.jpg" class="w-100" alt="">
               
             </div>
             <div class="col-md-3">
-              <img src="./images/portfolio/work3.jpg" alt="">
+              <img src="./images/portfolio/work3.jpg" alt="" class="w-100">
             </div>
             <div class="col-md-3">
-              <img src="./images/portfolio/work2.jpg" alt="">
+              <img src="./images/portfolio/work2.jpg" alt="" class="w-100 ">
             </div>
             <div class="col-md-3">
-              <img src="./images/portfolio/work1.jpg" alt="" srcset="">
+              <img src="./images/portfolio/work1.jpg" alt="" class="w-100 ">
             </div>
           </div>
-            <div>
                   <div class="row">
             <div class="col-md-3">
-              <img src="./images/portfolio/work5.jpg" alt="">
+              <img src="./images/portfolio/work5.jpg" alt="" class="w-100 ">
             </div>
             <div class="col-md-3">
-              <img src="./images/portfolio/work6.jpg" alt="">
+              <img src="./images/portfolio/work6.jpg" alt="" class="w-100 ">
             </div>
             <div class="col-md-3">
-              <img src="./images/portfolio/work7.jpg" alt="">
+              <img src="./images/portfolio/work7.jpg" alt="" class="w-100 ">
             </div>
             <div class="col-md-3">
-              <img src="./images/portfolio/work8.jpg" alt="">
+              <img src="./images/portfolio/work8.jpg" alt="" class="w-100 ">
             </div>
           </div>
         </div>
-      </div>
+          </div>
+         </div>
     </div>
-    </div>
-      </div>
 
-      <div>
-  <div class="container-fluid contacts">
+    <div class="container-fluid contacts">
           <h3>CONTACT US</h3>
           <div class="container">
-            <form action="#">
-              <div class="row">
-                <div class="col-lg-6" >
-                  <input type="text" id="user" name="user" placeholder="name." value="">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">name</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
                 </div>
-                <div class="col-lg-6">
-                <input type="text" id="email" placeholder="Email...">
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Email</label>
+                  <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
                 </div>
-                &nbsp;
-              </div>
-              <textarea name="" id="" cols="30" rows="10" placeholder="your message" class="form-control-transparent"></textarea>
-              
-            </form>
+                
+                <textarea name="" id="" cols="300" rows="10" placeholder="your message" class="form-control-transparent"></textarea>
+             </form>
           </div>
         
       
