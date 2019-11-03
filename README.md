@@ -6,7 +6,7 @@
 
 ## Description
 
-Akan naming is a culture of the Ghanaian. This webPage is to make it easy for them as well as any other to get embrace the culture and generate their name. It has fill out form that enables to key in the bate of birth and gender and a pop up that confirms the generated Akan name.
+Delani studio is a company that mainly deals with tech for companies. This includes software development to profile constructing for companies. With their improved and interative landing page, the company is able to gather and inform many of their clients on what to expect to from Delani.
 
 ## Setup/Installation Requirements
 
