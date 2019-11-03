@@ -1,4 +1,4 @@
-### AKAN-NAMING-SYSTEM
+### DELANI STUDIO
 
 ## Author
 
@@ -30,4 +30,3 @@ none
 ## Support and contact details
 
 In case of any problems with the Webpage feel free to reach out via najmaamin10@gmail.com
-
