@@ -11,7 +11,7 @@ Delani studio is a company that mainly deals with tech for companies. This inclu
 ## Setup/Installation Requirements
 
 - Open terminal/command prompt.
-- git clone https://github.com/najma-amin/myip.git
+- git clone https://github.com/najma-amin/Delani-studio.git
 - cd myip
 - to use atom to open code type atom . or code . for visual studio.
 
