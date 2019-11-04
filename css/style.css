@@ -69,6 +69,9 @@
 #inputmessage::placeholder {
   color: white;
 }
+#submit {
+  text-align: center;
+}
 .container {
   text-align: center;
 }
@@ -85,4 +88,8 @@ footer {
 }
 #p1 #p2 #p3 {
   display: none;
+}
+
+.najma:hover img {
+  opacity: 0.3;
 }

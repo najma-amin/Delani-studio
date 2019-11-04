@@ -60,3 +60,22 @@ $(document).ready(function() {
     $("#text1").hide();
   });
 });
+function validate() {
+  var name = document.getElementById("inputname").value;
+  var email = document.getElementById("inputemail").value;
+  var text = document.getElementById("inputmessage").value;
+  if (name == "") {
+    alert("Insert name!");
+  } else if (email == "") {
+    alert("Insert email!");
+  } else if (text == "") {
+    alert("There is no message!");
+  } else {
+    alert(
+      "we have recieved you message dear " +
+        name +
+        ", " +
+        " we will get back to you"
+    );
+  }
+}
