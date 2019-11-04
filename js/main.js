@@ -39,26 +39,6 @@ $(document).ready(function() {
   $("#p3").click(function() {
     $("#p3").hide();
   });
-  $("#work3").hover(function() {
-    $("#text3").show();
-  });
-  $("#work3").mouseleave(function() {
-    $("#text3").hide();
-  });
-
-  $("#work2").hover(function() {
-    $("#text2").show();
-  });
-  $("#work2").mouseleave(function() {
-    $("#text2").hide();
-  });
-
-  $("#work1").hover(function() {
-    $("#text1").show();
-  });
-  $("#work1").mouseleave(function() {
-    $("#text1").hide();
-  });
 
   $(".port1").hover(
     function() {
