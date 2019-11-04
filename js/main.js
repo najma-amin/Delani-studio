@@ -72,7 +72,7 @@ function validate() {
     alert("There is no message!");
   } else {
     alert(
-      "we have recieved you message dear " +
+      "we have recieved your message dear " +
         name +
         ", " +
         " we will get back to you"
