@@ -59,6 +59,19 @@ $(document).ready(function() {
   $("#work1").mouseleave(function() {
     $("#text1").hide();
   });
+
+  $(".port1").hover(
+    function() {
+      $(this)
+        .find(".txt")
+        .fadeIn(500);
+    },
+    function() {
+      $(this)
+        .find(".txt")
+        .fadeOut(500);
+    }
+  );
 });
 function validate() {
   var name = document.getElementById("inputname").value;

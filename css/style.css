@@ -102,3 +102,15 @@ footer {
   padding: 50px;
   visibility: hidden;
 }
+.img1 {
+  position: relative;
+}
+.txt {
+  position: absolute;
+  padding: 4%;
+  background-color: white;
+  text-align: center;
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: -45%;
+}
